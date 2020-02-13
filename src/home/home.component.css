@@ -1,0 +1,41 @@
+.home {
+  background-color: rgb(151, 217, 243);
+  height: 100vh;
+}
+
+.header {
+  background-color: rgb(90, 88, 88);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__text {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.wizard {
+  padding: 1rem 0;
+  margin: 0 2rem;
+}
+
+.wizard__labal {
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: block;
+}
+
+.wizard__labal__text {
+  color: grey;
+  display: block;
+  margin: 1.5rem 0;
+}

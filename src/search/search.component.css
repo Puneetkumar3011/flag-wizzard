@@ -1,0 +1,47 @@
+.search {
+  position: relative;
+}
+
+.search__input {
+  width: 210px;
+}
+
+.suggestions {
+  position: absolute;
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  max-height: 12rem;
+  overflow-y: auto;
+  padding-left: 0;
+  z-index: 100;
+  width: 210px;
+  background-color: #fff;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: rgb(207, 201, 201);
+  color: rgb(84, 84, 207);
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 20%;
+}
+
+.name_text {
+  display: inline-block;
+  width: 80%;
+}
